@@ -65,7 +65,30 @@ body {
     flex-direction: column;
     gap: 2rem;
 }
+.draw-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
 
 .hide {
     display: none;
+}
+
+
+#msg-draw {
+    color: #ffffc7;
+    font-size: 8vmin;
+
+}
+#draw-reset-btn {
+    padding: 1 rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
 }
